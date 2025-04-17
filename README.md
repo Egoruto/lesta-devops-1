@@ -22,7 +22,7 @@ docker build -t ping-app .
 2. Запустите контейнер:
 
 ```bash
-docker run -d -p 5000:5000 ping-app
+docker run -d -p 5000:5000 --name cont1 ping-app
 ```
 
 3. Проверьте работу:
