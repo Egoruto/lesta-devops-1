@@ -19,7 +19,7 @@
 docker build -t ping-app .
 ```
 
-2. Запустите контейнер:
+2. Запустите контейнера "cont1":
 
 ```bash
 docker run -d -p 5000:5000 --name cont1 ping-app
